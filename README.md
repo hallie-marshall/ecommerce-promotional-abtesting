@@ -1,4 +1,4 @@
-# A/B Testing 
+# Promotional Testing with Statistical and Probabilistic Models
 
 ## Project Background
 
@@ -98,6 +98,8 @@ Logistic Regression was used to determine which promotional factors most strongl
 -	Though EmailSubject was deemed significant, using the line "Your Favorite Product is On Sale!" only has a 2% higher likelihood of conversion.
 -	Non-Top20 customers are slightly less likely to purchase Top5 products when there is no Urgency Message (-11%). Non-Top20 customers are less likely to purchase Non-Top5 products where the pricing is Percentage-based (-16%).
 
+![Logistic Regression Classification Report](logreg_classification.png)
+
 Further feature additions, class rebalancing, or alternative model introductions (e.g. XGBoost) could improve predictive accuracy.
 
 
@@ -108,11 +110,19 @@ Bayesian A/B Testing was conducted to quantify the probability that one EmailSub
 
 **Email Subject:** The probability that the Email Subject "Your Favorite Product is On Sale!" outperform "Exclusive Deal for You!" is 9.27%, with conversion rates of 26.02% for "Your Favorite Product is On Sale!" and 25.68% for "Exclusive Deal for You!".
 
+![Bayesian Posterior Distributions of Conversion Rates: EmailSubject](bayesian_emailsubject.png)
+
 **Discount Type:** The probability that Percentage discounts outperform Flat discounts is 9.78%, with conversion rates of 25.96% for Flat discounts and 25.74% for Percentage discounts.
+
+![Bayesian Posterior Distributions of Conversion Rates: DiscountType](bayesian_discount.png)
 
 **Urgency Message:** The probability that Urgency is better than No Urgency is 30.82%, which is not considered significant. No Urgency messaging converts at 25.81% while No Urgency messaging converts at 25.89%.
 
+![Bayesian Posterior Distributions of Conversion Rates: UrgencyMessage](bayesian_urgency.png)
+
 **Communication Channels:** The probability that Email performs better than SMS is 33.59%, which is not considered significant. Email converts at 25.82% while SMS converts at 25.89%.
+
+![Bayesian Posterior Distributions of Conversion Rates: CommunicationChannel](bayesian_communicationchannel.png)
 
 **Multi-Feature Interactions**
 
