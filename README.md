@@ -63,7 +63,7 @@ Key findings that were consistent across all three models include:
 -	The best combination of features: Top20 customers purchasing Non-Top5 products via SMS with “Your Favorite Product is On Sale!” using a Percentage discount with No Urgency messaging
 -	The lowest conversion rate among multi-variates: Non-Top20 customers purchasing Top5 products via Email with “Exclusive Deal for You!” using a Percentage discount and No Urgency messaging
   
-By implementing the insights from this study, businesses can:
+By implementing the insights from this study, this organization can:
 
 - Optimize promotional spending by investing in the most effective discount structures
 -	Improve conversion rates by using data-driven discounting and messaging strategies
@@ -140,12 +140,12 @@ CommunicationChannel, UrgencyMessage, and DiscountType
   
 ## Recommendations
 
--	Incorporate additional datasets to refine existing models and introduce advanced regression techniques like XGBoost and Random Forest to improve classification accuracy.
--	Utilize Multi-Armed Bandit (MAB) algorithms to dynamically allocate promotional offers based on real-time performance, optimizing marketing spend and increasing conversion rates.
--	Apply causal inference techniques to isolate the true effect of promotional experiments and refine future marketing investments.
--	Assess the impact of different discount structures on demand by modeling price elasticity and customer response to pricing changes, ensuring optimal promotional effectiveness.
--	Implement a Marketing Mix Model (MMM) to measure the effectiveness of marketing channels in driving conversions, predicting the impact of frequency and recency adjustments, and maximizing ROI.
--	Further segment customers through predictive behavior analysis, leveraging hierarchical clustering and machine learning models to deliver hyper-personalized promotions.
+-	**Incorporate additional datasets** to refine existing models and introduce advanced regression techniques like XGBoost and Random Forest to improve classification accuracy.
+-	**Utilize Multi-Armed Bandit (MAB) algorithms** to dynamically allocate promotional offers based on real-time performance, optimizing marketing spend and increasing conversion rates.
+-	**Apply causal inference techniques** to isolate the true effect of promotional experiments and refine future marketing investments.
+-	**Assess the impact of different discount structures** on demand by modeling price elasticity and customer response to pricing changes, ensuring optimal promotional effectiveness.
+-	**Implement a Marketing Mix Model (MMM)** to measure the effectiveness of marketing channels in driving conversions, predicting the impact of frequency and recency adjustments, and maximizing ROI.
+-	**Further segment customers** through predictive behavior analysis, leveraging hierarchical clustering and machine learning models to deliver hyper-personalized promotions.
 
 
  ## Assumptions and Caveats
