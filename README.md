@@ -132,11 +132,11 @@ Segment and UrgencyMessage;
 CommunicationChannel, UrgencyMessage, and DiscountType
 
 
-- The probability that Flat discounts work better than Percentage discounts for Non-Top20 customers to convert with Non-Top5 products is 93.5%. This confirms that Flat discounts should be prioritized for Non-Top20 customers. 
--	The combination of No Urgency with a Flat discount sent via Email is consistently the highest conversion rate and significantly high for probabilities.
--	The probability that Urgency Messaging performs better than No Urgency is 49.1%, meaning there is no significance. Urgency Messaging is, however, more significant for probability when it is included in SMS message and a Flat discount. 
--	For Top20 customers purchasing non-Top5 products, Percentage discounts have significant probability of conversion compared to Flat discounts. These customers also prefer No Urgency. Whereas, Non-Top20 customers prefer Flat discounts and Urgency messaging for non-Top5 products.
--	Top20 customers purchasing Top5 products react more favorably to Percentage discounts and No Urgency, while Non-Top20 customers have a higher probability of converting when presented Flat discounts with No Urgency.
+- The probability that Flat discounts work better than Percentage discounts for Non-Top20 customers to convert with Non-Top5 products is 93.5%. This confirms that **Flat discounts should be prioritized for Non-Top20 customers.** 
+- The combination of **No Urgency with a Flat discount sent via Email is consistently the highest conversion rate** and significantly high for probabilities.
+-	The probability that Urgency Messaging performs better than No Urgency is 49.1%, meaning there is no significance. **Urgency Messaging is, however, more significant for probability when it is included in SMS message and a Flat discount**. 
+-	For **Top20 customers purchasing non-Top5 products, Percentage discounts have significant probability of conversion** compared to Flat discounts. These customers also prefer No Urgency. Whereas, **Non-Top20 customers prefer Flat discounts and Urgency messaging for non-Top5 products.**
+-	**Top20 customers purchasing Top5 products react more favorably to Percentage discounts and No Urgency,** while Non-Top20 customers have a higher probability of converting when presented Flat discounts with No Urgency.
   
 ## Recommendations
 
