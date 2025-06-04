@@ -60,8 +60,8 @@ Key findings that were consistent across all three models include:
 -	Flat discounts consistently outperform Percentage discounts for Non-Top20 customers while Percentage discounts perform well for Top20 customers.
 -	Email performs slightly better than SMS, but it is not statistically significant.
 -	Urgency messaging has no significant impact; however, No Urgency typically outperforms Urgency messaging, unless coupled with SMS.
--	The best combination of features: Top20 customers purchasing Non-Top5 products via SMS with “Your Favorite Product is On Sale!” using a Percentage discount with No Urgency messaging
--	The lowest conversion rate among multi-variates: Non-Top20 customers purchasing Top5 products via Email with “Exclusive Deal for You!” using a Percentage discount and No Urgency messaging
+-	The most valuable combination of features: Top20 customers purchasing Non-Top5 products via SMS with “Your Favorite Product is On Sale!” using a Percentage discount with No Urgency messaging
+-	The lowest conversion rate among multi-variable combinations: Non-Top20 customers purchasing Top5 products via Email with “Exclusive Deal for You!” using a Percentage discount and No Urgency messaging
   
 By implementing the insights from this study, this organization can:
 
@@ -77,7 +77,7 @@ ANOVA was conducted to test whether the provided features (EmailSubject, Discoun
 
 <ins>**Findings**</ins>
 -	The only significant singular features are Segment and Email Subject. However, the interaction between DiscountType, UrgencyMessage, and CommunicationChannel is highly significant (p = 0.010), indicating their combined effect has more influence than an individual feature.
--	Particular combinations of the significant multi-variate (DiscountType, UrgencyMessage, and CommunicationChannel) perform better than others. Flat discounts with No Urgency sent via Email have the highest overall conversion rate (26.32%). For SMS, Percentage discounts with No Urgency sent via SMS have the highest conversion for the CommunicationChannel and the second highest overall converstion rate (25.98%).  
+-	Particular combinations of the significant multivariate (DiscountType, UrgencyMessage, and CommunicationChannel) perform better than others. Flat discounts with No Urgency sent via Email have the highest overall conversion rate (26.32%). For SMS, Percentage discounts with No Urgency sent via SMS have the highest conversion for the CommunicationChannel and the second highest overall conversion rate (25.98%).  
 -	While UrgencyMessage is insignificant, No Urgency consistently performs slightly better than Urgency for all Segments.
 
 
@@ -116,7 +116,7 @@ Bayesian A/B Testing was conducted to quantify the probability that one EmailSub
 
 ![Bayesian Posterior Distributions of Conversion Rates: DiscountType](bayesian_discount.png)
 
-**Urgency Message:** The probability that Urgency is better than No Urgency is 30.82%, which is not considered significant. No Urgency messaging converts at 25.81% while No Urgency messaging converts at 25.89%.
+**Urgency Message:** The probability that Urgency is better than No Urgency is 30.82%, which is not considered significant. Urgency messaging converts at 25.81% while No Urgency messaging converts at 25.89%.
 
 ![Bayesian Posterior Distributions of Conversion Rates: UrgencyMessage](bayesian_urgency.png)
 
